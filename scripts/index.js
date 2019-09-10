@@ -1,5 +1,3 @@
-import '../styles/index.scss';
-
 //DOM VARIABLES
 let btn = document.getElementById('btn');
 let checkbox1 = document.getElementById("defaultInline1");
