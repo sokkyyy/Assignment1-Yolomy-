@@ -1,11 +1,16 @@
-# Webpack Frontend Starterkit
+# YOLOMY FRONTEND PROJECT
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/wbkd/webpack-starter.svg)](https://greenkeeper.io/)
+Yolomy is an online fashion store.
 
-A lightweight foundation for your next webpack based frontend project.
+##Getting Started
+These instructions will get you a copy of the project up and running on your local machine for testing purposes.  
 
+###Prerequisites
+You need to install the following software: 
+* node 8+
 
 ### Installation
+Install the dev server on the root of project folder:
 
 ```
 npm install
@@ -17,16 +22,9 @@ npm install
 npm start
 ```
 
-### Build Prod Version
+##Built With
+* [Webpack](https://github.com/webpack/webpack) - A lightweight foundation for a frontend project
 
-```
-npm run build
-```
 
-### Features:
-
-* ES6 Support via [babel](https://babeljs.io/) (v7)
-* SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
-* Linting via [eslint-loader](https://github.com/MoOx/eslint-loader)
-
-When you run `npm run build` we use the [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) to move the css to a separate file. The css file gets included in the head of the `index.html`.
+##Author
+* Raymond Ndegwa
