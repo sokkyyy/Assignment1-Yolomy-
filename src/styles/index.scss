@@ -127,10 +127,48 @@ body
   padding-left: 70px;
 }
 [productbox] {
-  background-color: bisque;
-  
+  background-color: bisque;  
   margin: 40px;
 }
+.product-header{
+  display: flex;
+}
+.color-dots{
+  display: flex;
+  padding: 10px;
+  padding-left: 100px;
+}
+.greenDot {
+  background-color: green;
+  border-radius: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+.blueDot {
+  background-color: blue;
+  border-radius: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+
+}
+.greyDot {
+  background-color: gray;
+  border-radius: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+.dot {
+  border-radius: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
 
 [productImage] {
   height: 70%;
@@ -145,13 +183,13 @@ body
 .prod-description{
   color: rgb(110, 103, 92);
   display: block;
-  padding-top: 50px;
+  padding-top: 30px;
   float: left;
 }
 .prod-price {
   display: block;
   color: rgb(110, 103, 92);
-  padding-top: 50px;
+  padding-top: 30px;
   float: right;
 
 }

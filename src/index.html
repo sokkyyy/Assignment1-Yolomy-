@@ -17,9 +17,9 @@
       </div>
 
 
-      <div class="header-right">
+      <div class="header-right" >
         <a href="#">Home</a>
-        <a href="#">Product</a>
+        <a href="#products">Product</a>
         <img src="/src/assets/logo/shop.png">
       </div>
     </div>
@@ -39,7 +39,7 @@
 
   </div>
 
-  <div class="products">
+  <div class="products" id="products">
 
     <div class="products-bar">
 
@@ -77,18 +77,44 @@
         <div class="product-columns">
 
           <div class="col-md-3 column productbox" productbox>
+            <div class="product-header">
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="size" data-toggle="dropdown">SIZE
+                <span class="caret"></span></button>
+                <div class="dropdown-menu" aria-labelledby="size">
+                  <button class="dropdown-item" type="button">LARGE</button>
+                  <button class="dropdown-item" type="button">MEDIUM</button>  
+                  <button class="dropdown-item" type="button">SMALL</button>
+                </div>
+              </div>
+              <div class="color-dots">
+                <span class="greenDot"></span>
+                <span class="blueDot"></span>
+                <span class="greyDot"></span>
+              </div>
+            </div>
             <img src="/src/assets/products/tshirt.png" productImage>
             <span class="prod-description">T-SHIRT</span>
             <span class="prod-price">5,00&euro;</span>
           </div>
         
           <div class="col-md-3 column productbox" productbox>
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="size" data-toggle="dropdown">SIZE
+              <span class="caret"></span></button>
+              <div class="dropdown-menu" aria-labelledby="size">
+                <button class="dropdown-item" type="button">LARGE</button>
+                <button class="dropdown-item" type="button">MEDIUM</button>  
+                <button class="dropdown-item" type="button">SMALL</button>
+              </div>
+            </div>
             <img src="/src/assets/products/pants.png" productImage>
             <span class="prod-description">PANTS FORCLAZ</span>
             <span class="prod-price">30,00&euro;</span>
           </div>
         
           <div class="col-md-3 column productbox" productbox>
+            <span style="display:block; padding-top: 10px;">10LITRI</span>
             <img src="/src/assets/products/backpack.png" productImage>
             <span class="prod-description">BACKPACK</span>
             <span class="prod-price">60,00&euro;</span>
@@ -105,18 +131,51 @@
           <div class="product-columns">
 
               <div class="col-md-3 column productbox" productbox>
+                  <div class="dropdown">
+                      <button class="btn btn-default dropdown-toggle" type="button" id="size" data-toggle="dropdown">SIZE
+                      <span class="caret"></span></button>
+                      <div class="dropdown-menu" aria-labelledby="size">
+                        <button class="dropdown-item" type="button">LARGE</button>
+                        <button class="dropdown-item" type="button">MEDIUM</button>  
+                        <button class="dropdown-item" type="button">SMALL</button>
+                      </div>
+                  </div>
                 <img src="/src/assets/products/giacket.png" productImageWomen>
                 <span class="prod-description">T-SHIRT</span>
                 <span class="prod-price">5,00&euro;</span>
               </div>
             
               <div class="col-md-3 column productbox" productbox>
+                  <div class="dropdown">
+                      <button class="btn btn-default dropdown-toggle" type="button" id="size" data-toggle="dropdown">SIZE
+                      <span class="caret"></span></button>
+                      <div class="dropdown-menu" aria-labelledby="size">
+                        <button class="dropdown-item" type="button">LARGE</button>
+                        <button class="dropdown-item" type="button">MEDIUM</button>  
+                        <button class="dropdown-item" type="button">SMALL</button>
+                      </div>
+                    </div>
                 <img src="/src/assets/products/trekkingshoes.png" style="height: 50%;" productImageWomen>
-                <span class="prod-description" style="padding-top: 110px">PANTS FORCLAZ</span>
-                <span class="prod-price" style="padding-top: 110px">30,00&euro;</span>
+                <span class="prod-description" style="padding-top: 95px">PANTS FORCLAZ</span>
+                <span class="prod-price" style="padding-top: 95px">30,00&euro;</span>
               </div>
             
               <div class="col-md-3 column productbox" productbox>
+                <div class="product-header">
+                    <div class="dropdown">
+                      <button class="btn btn-default dropdown-toggle" type="button" id="size" data-toggle="dropdown">SIZE
+                      <span class="caret"></span></button>
+                      <div class="dropdown-menu" aria-labelledby="size">
+                        <button class="dropdown-item" type="button">LARGE</button>
+                        <button class="dropdown-item" type="button">MEDIUM</button>  
+                        <button class="dropdown-item" type="button">SMALL</button>
+                      </div>
+                    </div>
+                    <div class="color-dots" style="padding-left: 130px;">
+                      <span class="dot " style="background-color: plum;"></span>
+                      <span class="dot " style="background-color: white; margin-left: 10px; "></span>
+                    </div>
+                </div>
                 <img src="/src/assets/products/tshirt_ladies.png" productImageWomen>
                 <span class="prod-description">BACKPACK</span>
                 <span class="prod-price">60,00&euro;</span>
