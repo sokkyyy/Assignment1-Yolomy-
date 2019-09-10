@@ -122,6 +122,28 @@ body
   width: 85%;
   align-content: center;
 }
+.check-stock{
+  display: block;
+  position: relative;
+  margin-left: 90%;   
+}
+.stock-navigation{
+  display: block;
+}
+i {
+  border: solid rgb(153, 35, 35);
+  border-width: 0 3px 3px 0;
+  padding: 3px;
+  display: inline-block;
+}
+.left-caret {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.right-caret {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
 .product-columns {
   display: flex;
   padding-left: 70px;
@@ -191,20 +213,29 @@ body
   color: rgb(110, 103, 92);
   padding-top: 30px;
   float: right;
+  font-weight: bold;
+  font-size: 20px;
 
+}
+.women-separator-line {
+  display: inline-block;
+  border-bottom: 1px solid gray;
+  margin-left: 50px;
+  width: 80%;
+  margin-top: 22px;  
+  
 }
 .women {
   position: relative;
   font-size: 30px;
   display: block;
   padding-right: 50px;
-  float:right
-  
+  float:right;  
 }
 .children {
   position: relative;
   font-size: 30px;
-  display: block;
+  display:none;
   padding-left: 50px;
   padding-top: 60px;
 }
