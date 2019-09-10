@@ -2,10 +2,10 @@
 
 Yolomy is an online fashion store.
 
-##Getting Started
+## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for testing purposes.  
 
-###Prerequisites
+### Prerequisites
 You need to install the following software: 
 * node 8+
 
@@ -22,9 +22,9 @@ npm install
 npm start
 ```
 
-##Built With
+## Built With
 * [Webpack](https://github.com/webpack/webpack) - A lightweight foundation for a frontend project
 
 
-##Author
+## Author
 * Raymond Ndegwa
