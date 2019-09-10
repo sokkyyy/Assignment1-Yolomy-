@@ -71,7 +71,7 @@ body
 }
 .products-bar {
   height: 10%;
-  background-color: rgb(186, 247, 215);
+  background-color: rgb(207, 198, 194);
   display: flex;
 }
 .products-checkbox {
@@ -85,9 +85,13 @@ body
   height: 50px;
   padding-left: 300px;
   padding-top: 40px;
+  
+}
+#btn {
+  font-size: 12px;
 }
 .products-button button {
-  background-color: #d45206; 
+  background-color: #7c3a14; 
   border: none;
   color: white;
   width: 200px;
@@ -149,7 +153,7 @@ i {
   padding-left: 70px;
 }
 [productbox] {
-  background-color: bisque;  
+  background-color: rgb(228, 226, 222);  
   margin: 40px;
 }
 .product-header{
@@ -246,19 +250,26 @@ i {
   background-image: url("../assets/backgrounds/about.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
+}
+.about-us-heading {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .about-border {
   border: 2px solid burlywood;
+  
   width: 60%;
   height: 70%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  top: 70px;
+  
   color: white;
-  font-size: 30px;
+  font-size: 28px;
 }
 .about-content {
   margin-left: auto;
